@@ -10,7 +10,7 @@ function Footer() {
         ,"Appliances","Jewelry & Watches"
     ]
     const data2 = ["Your Account","Returns & Exchanges","Shipping & Delivery","Estimated Delivery Time","Purchase Hisotry"]
-    const data3 = ["Support Center","Term & Conditions xxxx","Privacy Policy","Help","FAQS"]
+    const data3 = ["Support Center","Term & Conditions","Privacy Policy","Help","FAQS"]
     return (
         <footer className="bg-[#171717] pt-14">
             <div className="collect flex gap-10 justify-between flex-wrap">
@@ -24,36 +24,36 @@ function Footer() {
                         <a href={"#"}><img src={Googel} alt="media" width={35} className="rounded-md"/></a>
                     </div>
                 </div>
-                <div>
+                <div className='w-[180px]'>
                     <h3 className="text-2xl font-bold text-white mb-6">Find It Fast</h3>
                     <ul>
                         {data1.map((text,idx)=>(
                             <li key={idx} className="flex gap-2 mt-2 text-[#c6c6c6] cursor-pointer transition-all hover:text-white
-                            ">
+                            hover:pl-1">
                                 <MdPlayArrow className="text_color w-fit" /> 
                                 <span className=" text-sm">{text}</span>
                             </li>
                         ))}
                     </ul>
                 </div>
-                <div>
+                <div className='w-[180px]'> 
                     <h3 className="text-2xl font-bold text-white mb-6">Quick Links</h3>
                     <ul>
                         {data2.map((text,idx)=>(
                             <li key={idx} className="flex gap-2 mt-2 text-[#c6c6c6] cursor-pointer transition-all hover:text-white
-                            ">
+                            hover:pl-1">
                                 <MdPlayArrow className="text_color w-fit" /> 
                                 <span className=" text-sm">{text}</span>
                             </li>
                         ))}
                     </ul>
                 </div>
-                <div className="max-sm:hidden">
+                <div className=" w-[180px] max-sm:hidden">
                     <h3 className="text-2xl font-bold mb-6 text-white">Service us</h3>
                     <ul>
                         {data3.map((text,idx)=>(
                             <li key={idx} className="flex gap-2 mt-2 text-[#c6c6c6] cursor-pointer transition-all hover:text-white
-                            ">
+                            hover:pl-1">
                                 <MdPlayArrow className="text_color w-fit" /> 
                                 <span className="text-sm">{text}</span>
                             </li>
