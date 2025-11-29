@@ -43,7 +43,7 @@ A responsive online store built with React.js and Tailwind CSS, featuring produc
 Clone the project and install dependencies:
 
 ```bash
-git clone https://github.com/ahsanelm39-star/URBANBUILD.git
+git clonehttps://github.com/ahsanelm39-star/ahmed-shope-el.git
 npm install
 npm run dev
 ```
