@@ -1,4 +1,4 @@
-# 🚀 URBANBUILD
+# 🚀 Ahmed Shope
 ![Cover](https://i.postimg.cc/kgBb8fx7/tsmym-bdwn-ʿnwan.png)
 
 A responsive online store built with React.js and Tailwind CSS, featuring product listings, cart, checkout, and user authentication — fast, modern, and SEO-friendly.
